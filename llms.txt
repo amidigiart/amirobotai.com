@@ -1,0 +1,27 @@
+# amiRobotAI
+> AI Robotics & Process Automation Companion — dual-engine verified
+
+## What is amiRobotAI?
+amiRobotAI is a dual-engine AI companion for robotics, RPA, and industrial automation. Two AI models (Grok + DeepSeek) cross-verify every response — automation advice you can trust.
+
+## Features
+- RPA design (UiPath, Power Automate, n8n, bot architecture, process mining)
+- Industrial robotics (SCARA, 6-axis, cobots, safety standards, PLC integration)
+- Process optimization (bottleneck analysis, ROI, KPIs, change management)
+- IoT & edge computing (MQTT, OPC-UA, predictive maintenance, data pipelines)
+- AI in automation (computer vision QC, NLP, anomaly detection, digital twins)
+- Integration (ERP/MES, API design, middleware, legacy bridging)
+
+## Architecture
+- Dual-engine: Grok 4.5 (xAI) + DeepSeek
+- Anti-confabulation: trigram-cosine concordance >= 0.45 required
+- Stateless: queries processed in real-time, never stored
+
+## Compliance
+- EU AI Act (Reg. 2024/1689) Art. 50 — limited-risk, full transparency
+- GDPR (Reg. 2016/679) — minimal data, no query storage
+
+## Links
+- Website: https://amirobotai.com
+- API: https://amirobotai-api-production.up.railway.app
+- Contact: hello@amirobotai.com
