@@ -1,27 +1,71 @@
-# amiRobotAI
-> AI Robotics & Process Automation Companion — dual-engine verified
+# amiRobotAI — AI Robotics & Process Automation Companion
+
+> Dual-engine AI companion for robotics, RPA, industrial automation, and IoT. Verified advice on cobot selection, safety standards, process optimization, and edge computing. Part of the ami* / BRIDGRAI ecosystem.
 
 ## What is amiRobotAI?
-amiRobotAI is a dual-engine AI companion for robotics, RPA, and industrial automation. Two AI models (Grok + DeepSeek) cross-verify every response — automation advice you can trust.
 
-## Features
-- RPA design (UiPath, Power Automate, n8n, bot architecture, process mining)
-- Industrial robotics (SCARA, 6-axis, cobots, safety standards, PLC integration)
-- Process optimization (bottleneck analysis, ROI, KPIs, change management)
-- IoT & edge computing (MQTT, OPC-UA, predictive maintenance, data pipelines)
-- AI in automation (computer vision QC, NLP, anomaly detection, digital twins)
-- Integration (ERP/MES, API design, middleware, legacy bridging)
+amiRobotAI uses two independent AI engines (Grok + DeepSeek) to answer every question. Answers are cross-verified via WEAC (Weighted Ensemble Agreement Coherence). If the engines disagree, the system refuses to answer (Ontological Lock). TVE 6-axis manipulation detection is integrated.
+
+## Topics Covered
+
+- RPA & Workflows: bot architecture, tool selection (UiPath, Power Automate, n8n), process mining, exception handling
+- Industrial Robotics: robot types (SCARA, 6-axis, cobots), cell design, kinematics, end-effectors, PLC integration
+- IoT & Edge Computing: sensor networks, MQTT/OPC-UA, predictive maintenance, data pipelines
+- AI in Automation: computer vision QC, NLP document processing, anomaly detection, digital twins
+- Process Optimization: bottleneck analysis, ROI calculation, KPIs (OEE, cycle time), change management
+- Integration: ERP/MES connectivity, API design, middleware, legacy system bridging
+- Safety Standards: ISO 10218, ISO/TS 15066, ISO 12100, CE marking
 
 ## Architecture
-- Dual-engine: Grok 4.5 (xAI) + DeepSeek
-- Anti-confabulation: trigram-cosine concordance >= 0.45 required
+
+- Dual-engine: Grok (xAI) + DeepSeek
+- Anti-confabulation: WEAC concordance required, Ontological Lock on disagreement
 - Stateless: queries processed in real-time, never stored
+- Languages: English, Romanian, German, Spanish, Italian, French
+- Pricing: Free (5 questions/day) | Pro (€9.99/month, unlimited)
 
 ## Compliance
-- EU AI Act (Reg. 2024/1689) Art. 50 — limited-risk, full transparency
-- GDPR (Reg. 2016/679) — minimal data, no query storage
+
+- EU AI Act (Reg. 2024/1689) Art. 50 — limited-risk AI, full transparency
+- GDPR (Reg. 2016/679) — minimal data, no query storage, no cookies, no analytics
+
+## Verification
+
+Every answer can be cryptographically stamped via AmiStampAI (https://amistampai.com) for blockchain proof.
+
+## Author
+
+Mihai Rosca — Braila, Romania, EU
+ORCID: https://orcid.org/0009-0001-1422-6209
+
+## Ecosystem — ami* / BRIDGRAI
+
+- BRIDGRAI: https://bridgrai.com — Trust layer for AI systems
+- ami* Ecosystem: https://amiecosystems.com — Portfolio of human-guided AI products
+- AmiStampAI: https://amistampai.com — Semantic notarization
+- AmiCooperAI: https://amicooperai.com — Local AI brain for every home
+- AmiExilAI: https://amiexilai.com — Diaspora companion
+- AGI School Academy: https://agischool.academy — Trust dashboard
+
+## Research (DOI)
+
+- CAMP: https://doi.org/10.5281/zenodo.22682610
+- SIGNA: https://doi.org/10.5281/zenodo.22682891
+- KCE: https://doi.org/10.5281/zenodo.22667873
+
+## Blockchain
+
+182 IP assets on Tezos Mainnet
+Contract: https://tzkt.io/KT1Pe2GA11bMpaTL5VH4TY6aZ9xePZ6f5vWX/storage
 
 ## Links
+
 - Website: https://amirobotai.com
 - API: https://amirobotai-api-production.up.railway.app
 - Contact: hello@amirobotai.com
+- GitHub: https://github.com/amidigiart
+
+## Licence
+
+Free for personal use. Commercial licensing available.
+All rights reserved — BRIDGRAI.
